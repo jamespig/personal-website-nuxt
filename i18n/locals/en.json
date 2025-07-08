@@ -1,0 +1,44 @@
+{
+  "nav": {
+    "home": "Home"
+  },
+  "home": {
+    "hero": {
+      "role": "I'm Frontend Developer"
+    },
+    "intro": {
+      "title": "About Me",
+      "hello": "Hello! I'm",
+      "enjoy": "I enjoy",
+      "code": "coding",
+      "and": "and",
+      "design": "designing",
+      "bringImaginationToLife": "bringing imagination to life",
+      "onWeekends": "on weekends, I often",
+      "listenToMusic": "listening to music",
+      "while": "while",
+      "draw": "drawing",
+      "smoothingFatigue": ", smoothing the fatigue of the week.",
+      "the": "The",
+      "gym": "gym",
+      "isSecondOffice": "is my second office.",
+      "liftingWeights": "lifting weights",
+      "running": "running",
+      "maintainBalance": "helps me maintain my mental and physical balance outside of work.",
+      "evening": "In the evenings, I enjoy curling up on the sofa",
+      "readingBooks": "reading books",
+      "watchingShows": ", watching shows",
+      "techInsights": ". from tech insights to psychology; each read sparks new ideas"
+    },
+    "social": {
+      "title": "Social Media",
+      "instagramDescription": "Record life moments and artwork",
+      "linkedinDescription": "Professional profile and work experience",
+      "CVDescription": "I put all my work experience there!",
+      "MediumDescription": "Self-improvement technical articles",
+      "GithubDescription": "I have proof of my work...",
+      "GmailDescription": "Just Email.",
+      "FigmaDescription": "Personal website design draft"
+    }
+  }
+}

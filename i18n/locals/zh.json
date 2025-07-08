@@ -1,0 +1,44 @@
+{
+  "nav": {
+    "home": "Home"
+  },
+  "home": {
+    "hero": {
+      "role": "I'm Frontend Developer"
+    },
+    "intro": {
+      "title": "關於我",
+      "hello": "你好！我是",
+      "enjoy": "我喜歡使用",
+      "code": "程式",
+      "and": "與",
+      "design": "設計",
+      "bringImaginationToLife": "把想像化為現實！",
+      "onWeekends": "在週末，我經常",
+      "listenToMusic": "聽音樂",
+      "while": "同時",
+      "draw": "畫畫",
+      "smoothingFatigue": "，撫慰一周的上班疲勞。",
+      "the": "",
+      "gym": "健身房",
+      "isSecondOffice": "是我的第二個辦公室。",
+      "liftingWeights": "舉重",
+      "running": "跑步",
+      "maintainBalance": "讓我在工作之餘保持精神與體力的平衡！",
+      "evening": "在晚上，我喜歡窩在沙發上",
+      "readingBooks": "閱讀書籍",
+      "watchingShows": "、觀看影集",
+      "techInsights": "。從科技洞察到心理學，每次閱讀都能激發新的想法！"
+    },
+    "social": {
+      "title": "社群媒體",
+      "instagramDescription": "記錄生活點滴、繪圖作品",
+      "linkedinDescription": "專業履歷、工作經驗",
+      "CVDescription": "我將所有工作經驗都放在這裡！",
+      "MediumDescription": "自我提升的技術文章",
+      "GithubDescription": "我有在工作的證明...",
+      "GmailDescription": "就是Email。",
+      "FigmaDescription": "個人網站設計草稿"
+    }
+  }
+}
