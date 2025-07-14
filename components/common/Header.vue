@@ -108,6 +108,10 @@ const routes = [
     name: "nav.home",
     path: "/",
   },
+  {
+    name: "nav.blog",
+    path: "/blog",
+  },
 ];
 
 // menu state
