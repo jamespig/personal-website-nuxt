@@ -28,6 +28,9 @@ export default defineNuxtConfig({
     cssPath: ["~/assets/css/tailwind.css", { injectPosition: "last" }],
   },
   i18n: {
+    bundle: {
+      optimizeTranslationDirective: false,
+    },
     langDir: "locals",
     locales: [
       {
