@@ -1,6 +1,7 @@
 {
   "nav": {
-    "home": "Home"
+    "home": "Home",
+    "blog": "Blog"
   },
   "home": {
     "hero": {
@@ -39,6 +40,22 @@
       "GithubDescription": "I have proof of my work...",
       "GmailDescription": "Just Email.",
       "FigmaDescription": "Personal website design draft"
+    }
+  },
+  "blog": {
+    "month": {
+      "January": "January",
+      "February": "February",
+      "March": "March",
+      "April": "April",
+      "May": "May",
+      "June": "June",
+      "July": "July",
+      "August": "August",
+      "September": "September",
+      "October": "October",
+      "November": "November",
+      "December": "December"
     }
   }
 }
