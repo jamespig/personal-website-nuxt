@@ -22,7 +22,7 @@
           <article
             v-for="post in monthGroup.posts"
             :key="post.id"
-            class="flex flex-row items-center justify-between px-3 py-2 h-[250px]"
+            class="flex flex-row items-center justify-between px-3 py-2 h-[250px] gap-4"
             :style="getArticleStyle(post)"
           >
             <time class="flex flex-col text-2xl font-bold">
@@ -113,7 +113,6 @@ const getTitleStyle = (post: Post) => {
   };
 };
 
-// 範例資料
 const posts: Post[] = [
   {
     id: "first-post",
@@ -125,6 +124,31 @@ const posts: Post[] = [
     tags: ["diary"],
     bgColor: "#C6C5C1",
     titleBgColor: "#F92F04",
+    titleColor: "#000000",
+  },
+  {
+    id: "how-to-pass-param",
+    year: 2025,
+    month: "July",
+    day: 22,
+    title: "How to pass parameters",
+    description: "Is the approach we have been using really the best one?",
+    tags: ["tech"],
+    bgColor: "#5C4A80",
+    titleBgColor: "#F06018",
+    titleColor: "#000000",
+  },
+  {
+    id: "optimistic-update-or-not",
+    year: 2025,
+    month: "July",
+    day: 23,
+    title: "Optimistic Update or Not?",
+    description:
+      "Optimistic update or loading state, which one is better for user experience?",
+    tags: ["tech"],
+    bgColor: "#B1DD74",
+    titleBgColor: "#FC6F8B",
     titleColor: "#000000",
   },
 ];

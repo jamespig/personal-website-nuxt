@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bg-[#C6C5C1] p-4">
     <!-- 文章標題 -->
     <div class="mb-8">
       <div
@@ -24,8 +24,10 @@
 
     <!-- 文章內容 -->
     <article class="leading-relaxed">
-      <h1 class="text-xl font-bold mt-8 mb-4 leading-tight">
-        終於開始嘗試經營<span class="highlight">部落格</span>
+      <h1
+        class="inline-block px-2 py-1 mt-4 mb-2 text-2xl font-bold text-black shadow-lg bg-[#F92F04]"
+      >
+        終於開始嘗試經營部落格
       </h1>
 
       <p>
