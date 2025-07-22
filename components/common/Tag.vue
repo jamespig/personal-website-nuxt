@@ -10,8 +10,8 @@
   </div>
 </template>
 <script lang="ts" setup>
-import { Notebook, Gamepad2 } from "lucide-vue-next";
-export type TagVariant = "diary" | "game";
+import { Notebook, Gamepad2, CodeXml } from "lucide-vue-next";
+export type TagVariant = "diary" | "game" | "tech";
 
 const props = defineProps<{
   variant: TagVariant;
@@ -23,6 +23,8 @@ const icon = computed(() => {
       return Notebook;
     case "game":
       return Gamepad2;
+    case "tech":
+      return CodeXml;
   }
 });
 
@@ -32,6 +34,8 @@ const color = computed(() => {
       return "bg-white";
     case "game":
       return "bg-[#F6BE03]";
+    case "tech":
+      return "bg-[#64C0DD]";
   }
 });
 </script>
