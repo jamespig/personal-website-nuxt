@@ -113,7 +113,6 @@ const getTitleStyle = (post: Post) => {
   };
 };
 
-// 範例資料
 const posts: Post[] = [
   {
     id: "first-post",

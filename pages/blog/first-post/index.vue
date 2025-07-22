@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bg-[#C6C5C1] p-4">
     <!-- 文章標題 -->
     <div class="mb-8">
       <div
