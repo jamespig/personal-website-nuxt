@@ -138,6 +138,19 @@ const posts: Post[] = [
     titleBgColor: "#F06018",
     titleColor: "#000000",
   },
+  {
+    id: "optimistic-update-or-not",
+    year: 2025,
+    month: "July",
+    day: 23,
+    title: "Optimistic Update or Not?",
+    description:
+      "Optimistic update or loading state, which one is better for user experience?",
+    tags: ["tech"],
+    bgColor: "#B1DD74",
+    titleBgColor: "#FC6F8B",
+    titleColor: "#000000",
+  },
 ];
 
 // 按年份和月份分組
