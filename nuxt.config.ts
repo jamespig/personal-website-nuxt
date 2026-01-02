@@ -23,7 +23,9 @@ export default defineNuxtConfig({
     "nuxt-lucide-icons",
     "@vueuse/nuxt",
     "@nuxtjs/i18n",
+    "@nuxt/ui",
   ],
+  css: ['~/assets/css/nuxt-ui.css'],
   tailwindcss: {
     cssPath: ["~/assets/css/tailwind.css", { injectPosition: "last" }],
   },
