@@ -1,8 +1,6 @@
-@import "./fonts.css";
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "@nuxt/ui";
+@import "tailwindcss";
+@import './fonts.css' layer(base);
 
 :root {
   --font-sans: "Roboto", sans-serif;
