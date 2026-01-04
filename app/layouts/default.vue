@@ -1,15 +1,11 @@
 <template>
-  <div>
-    <Header />
-    <VueLenis root>
-      <slot />
-      <Footer />
-    </VueLenis>
-  </div>
+  <VueLenis root>
+    <slot />
+    <Footer />
+  </VueLenis>
 </template>
 
 <script setup lang="ts">
-import Header from "../components/common/Header.vue";
-import Footer from "../components/common/Footer.vue";
+import Footer from "../components/layout/Footer.vue";
 import { VueLenis } from "lenis/vue";
 </script>

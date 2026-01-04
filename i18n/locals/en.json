@@ -33,13 +33,13 @@
     },
     "social": {
       "title": "Social Media",
-      "instagramDescription": "Record life moments and artwork",
+      "Instagram": "Record life moments and artwork",
       "linkedinDescription": "Professional profile and work experience",
-      "CVDescription": "I put all my work experience there!",
-      "MediumDescription": "Self-improvement technical articles",
-      "GithubDescription": "I have proof of my work...",
-      "GmailDescription": "Just Email.",
-      "FigmaDescription": "Personal website design draft"
+      "CV": "I put all my work experience there!",
+      "Medium": "Self-improvement technical articles",
+      "Github": "I have proof of my work...",
+      "Gmail": "Just Email.",
+      "Figma": "Personal website design draft"
     }
   },
   "blog": {

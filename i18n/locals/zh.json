@@ -33,13 +33,13 @@
     },
     "social": {
       "title": "社群媒體",
-      "instagramDescription": "記錄生活點滴、繪圖作品",
-      "linkedinDescription": "專業履歷、工作經驗",
-      "CVDescription": "我將所有工作經驗都放在這裡！",
-      "MediumDescription": "自我提升的技術文章",
-      "GithubDescription": "我有在工作的證明...",
-      "GmailDescription": "就是Email。",
-      "FigmaDescription": "個人網站設計草稿"
+      "Instagram": "記錄生活點滴、繪圖作品",
+      "Linkedin": "專業履歷、工作經驗",
+      "CV": "我將所有工作經驗都放在這裡！",
+      "Medium": "自我提升的技術文章",
+      "Github": "我有在工作的證明...",
+      "Gmail": "就是Email。",
+      "Figma": "個人網站設計草稿"
     }
   },
   "blog": {
