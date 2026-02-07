@@ -3,4 +3,6 @@ export type SocialCard = {
   description: string;
   icon: any;
   link: string;
+  backgroundColor: string;
+  textColor: string;
 }

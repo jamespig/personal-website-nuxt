@@ -1,11 +1,12 @@
 <template>
   <UButton
+    :icon="icon"
+    size="xl"
     @click="emit('click')"
     :ui="{
       base: 'w-fit h-fit rounded-lg px-4 py-2 cursor-pointer',
     }"
   >
-    <component :is="icon" :size="30" :stroke-width="2" />
   </UButton>
 </template>
 <script lang="ts" setup>
