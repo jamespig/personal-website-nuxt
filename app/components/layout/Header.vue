@@ -1,3 +1,4 @@
+@@ -1,286 +0,0 @@
 <template>
   <header
     class="fixed top-0 left-0 right-0 z-50 flex justify-between items-center p-4 bg-white rounded-b-lg shadow-2xl"
@@ -9,19 +10,19 @@
       <!-- 語言切換 -->
       <button
         @click="quickSwitchLanguage"
-        class="flex items-center gap-2 p-2 rounded-md hover:shadow-inner transition-all duration-300"
-        :aria-label="`Switch to ${nextLocale.name}`"
-        :title="`Switch to ${nextLocale.name}`"
+        class="flex items-center gap-2 text-base font-bold text-black hover:shadow-inner transition-all duration-300 px-2 py-1 rounded-md"
+        :aria-label="`Switch to ${nextLocale?.name}`"
+        :title="`Switch to ${nextLocale?.name}`"
       >
-        <Languages :size="24" />
-        <span class="text-sm font-medium">{{ nextLocale.name }}</span>
+        <Languages :size="20" class="text-black" />
+        <span>{{ nextLocale?.name }}</span>
       </button>
 
       <!-- 導航選單 -->
       <ul class="flex items-center gap-4">
         <li v-for="route in routes" :key="route.path">
           <NuxtLink
-            class="text-base font-bold hover:shadow-inner transition-all duration-300 px-2 py-1 rounded-md"
+            class="text-base font-bold text-black hover:shadow-inner transition-all duration-300 px-2 py-1 rounded-md"
             :to="localePath(route.path)"
             >{{ $t(route.name) }}</NuxtLink
           >
@@ -41,13 +42,13 @@
           class="icon-container hover:shadow-inner transition-all duration-300"
           ref="menuIconContainer"
         >
-          <AlignRight ref="menuIcon" :size="24" />
+          <AlignRight ref="menuIcon" :size="24" class="text-black" />
         </div>
         <div
           class="icon-container hover:shadow-inner transition-all duration-300"
           ref="closeIconContainer"
         >
-          <X ref="closeIcon" :size="24" />
+          <X ref="closeIcon" :size="24" class="text-black" />
         </div>
       </button>
     </div>
@@ -61,10 +62,10 @@
       <div class="mb-4">
         <button
           @click="quickSwitchLanguage"
-          class="w-full flex items-center gap-2 p-2 rounded-md hover:shadow-inner transition-all duration-300"
+          class="w-full flex items-center justify-center gap-2 text-base font-bold text-black hover:shadow-inner transition-all duration-300 px-2 py-1 rounded-md"
         >
-          <Languages :size="20" />
-          <span class="text-sm font-medium">{{ nextLocale.name }}</span>
+          <Languages :size="20" class="text-black" />
+          <span>{{ nextLocale?.name }}</span>
         </button>
       </div>
 
@@ -76,7 +77,7 @@
           class="opacity-0"
         >
           <NuxtLink
-            class="text-base font-bold w-fit text-center px-2 py-1 rounded-md hover:shadow-inner transition-all duration-300"
+            class="text-base font-bold text-black w-fit text-center px-2 py-1 rounded-md hover:shadow-inner transition-all duration-300"
             :to="localePath(route.path)"
             @click="closeMenu"
             >{{ $t(route.name) }}</NuxtLink
@@ -107,11 +108,7 @@ const routes = [
   {
     name: "nav.home",
     path: "/",
-  },
-  {
-    name: "nav.blog",
-    path: "/blog",
-  },
+  }
 ];
 
 // menu state
@@ -131,7 +128,7 @@ const menuItemStagger = 0.08;
 
 // 簡化的語言切換函數 - 直接切換到另一種語言
 const quickSwitchLanguage = () => {
-  const targetLocale = nextLocale.value.code as "en" | "zh";
+  const targetLocale = nextLocale.value?.code as "en" | "zh";
   setLocale(targetLocale);
 };
 

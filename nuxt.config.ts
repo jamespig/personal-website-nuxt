@@ -1,4 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import tailwindcss from "@tailwindcss/vite";
+
 export default defineNuxtConfig({
   compatibilityDate: "2025-05-15",
   devtools: { enabled: true },
@@ -17,16 +19,19 @@ export default defineNuxtConfig({
       ],
     },
   },
+  vite: {
+    plugins: [
+      tailwindcss(),
+    ],
+  },
   modules: [
-    "@nuxtjs/tailwindcss",
     "v-gsap-nuxt",
     "nuxt-lucide-icons",
     "@vueuse/nuxt",
     "@nuxtjs/i18n",
+    "@nuxt/ui",
   ],
-  tailwindcss: {
-    cssPath: ["~/assets/css/tailwind.css", { injectPosition: "last" }],
-  },
+  css: ['~/assets/css/main.css'],
   i18n: {
     bundle: {
       optimizeTranslationDirective: false,
@@ -47,7 +52,7 @@ export default defineNuxtConfig({
       },
     ],
     defaultLocale: "en",
-    strategy: "prefix_except_default",
+    strategy: "no_prefix",
     detectBrowserLanguage: {
       useCookie: true,
       cookieKey: "i18n_redirected",

@@ -1,12 +1,5 @@
-@import "./fonts.css";
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --font-sans: "Roboto", sans-serif;
-}
+@import "@nuxt/ui";
+@import "tailwindcss";
 
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
@@ -24,4 +17,11 @@
 /* Hide Scrollbar Buttons */
 ::-webkit-scrollbar-button {
   display: none;
+}
+
+@theme {
+    --font-sans: "Roboto", sans-serif;
+
+    --color-primary: white;
+    --color-secondary: black;
 }
